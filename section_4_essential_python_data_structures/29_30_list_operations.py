@@ -54,9 +54,9 @@ target_ip = '10.0.0.1'
 if target_ip in ip_list:
     print(f'{target_ip} is in the list')
 
-prefix = '192'
-if prefix not in ip_list:
-    print(f'No addresses with the prefix {prefix} found in the list')
+target_ip = '192.168.0.3'
+if target_ip not in ip_list:
+    print(f'{target_ip} is not in the list')
 
 # -----------------------------
 # LIST GOTCHAS (Common Pitfalls)
