@@ -25,6 +25,8 @@ import re  # Importing the regex module
 # - $  : Matches the end of a string
 
 command = '/execute data-analysis'  # Example command
+
+# if re.match(r'^/execute\s\w+$', command): # Doesn't match because hyphen is not part of \w+
 if re.match(r'^/execute\s\w+(-\w+)*$', command):
     # Matches a command starting with '/execute', followed by a word or hyphenated words
     print('Valid command')
