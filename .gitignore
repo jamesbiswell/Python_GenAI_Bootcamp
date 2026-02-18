@@ -12,6 +12,9 @@ env/
 # PyCharm
 .idea/
 
+# Environment variables
+.env
+
 # Distribution / packaging
 dist/
 build/
