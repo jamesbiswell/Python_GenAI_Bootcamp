@@ -1,6 +1,6 @@
 ## Udemy Course - The Complete Python Programming and Generative AI Bootcamp
 
-- This repository contains working solutions as required for each section of this Udemy course.
+- This repository contains working solutions (as required) for each section of this Udemy course.
 
 - Course link: https://www.udemy.com/course/the-complete-python-programming-and-generative-ai-bootcamp/
 
